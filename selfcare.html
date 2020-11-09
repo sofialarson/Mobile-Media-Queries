@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>self.care</title>
+    <style>
+      body {
+        background-color: #EDDFCE;
+      }
+    </style>
+  </head>
+  <body>
+
+  <!-- Navigation bar and website title -->
+    <div class = "navigation" style = "width: 100%; position: fixed">
+      <!-- had to replace website title with an image, could not find out how to make text with only a outline stroke -->
+      <img src = "webname.png" style = "position: absolute; margin-top: 12px; width: 15%; height: 70%">
+      <h2  style = "margin-right: 20px"><a href= "index.html" style = "text-decoration: none"> about </a></h2>
+      <h2 style = "margin-left: 2px; margin-right: 2px"> / <h2>
+      <h2 style=  "color: #9C6A54"> exercises </h2>
+    </div>
+
+  <!-- Self care instructions -->
+  <div class = "pagewidth" style = "width: 100%;">
+    <h1 style = "text-align: center; margin-top: 15%; color: #434343"> Self Care Exercise #1 </h1>
+  </div>
+  <h2 style = "text-align: center; color: #434343; margin-left: 10%; margin-right: 10%"> Let’s write something down, a short journaling exercise. It can be
+  absolutely about anything. Nobody will see. </h2>
+
+  <!-- Gif of prompts -->
+  <div class = "pagewidth" style = "width: 100%;">
+  <img src= "Questions.gif" style = "margin-top: 15%"> </img>
+  </div>
+
+  <!-- Input field and images surrounding it -->
+  <img src = "Background.png" style = "width: 80%; height: 30%; margin-left: 5%; margin-top: 7%"> </img>
+  <div class = "pagewidth" style = "width: 100%; position: absolute; margin-top: -20%">
+  <textarea name="paragraph_text" cols="100" rows="33" style = "border: none"> type it out here</textarea>
+  </div>
+  <!--
+  <img class = "Curtainright" src = "Curtain.png" style = "position: absolute; width: 15%; height: 100%; display: flex;
+   justify-content: flex-start; margin-left: 7%; margin-top: -20.5%"> </img>
+  <img class = "Curtainleft" src = "Curtain2.png" style = "position: absolute; width: 15%; height: 100%; display: flex;
+  justify-content: flex-start; margin-left: 78%; margin-top: -20.5%"> </img>
+  <img src = "pot.png" style = "position: absolute; width: 10%; height: 30%; display: flex;
+  justify-content: flex-start; margin-left: 10%; margin-top: 16%"> </img>
+  -->
+  <img class = "Curtainright" src = "Curtain.png" style = "position: absolute; width: 15%; display: flex;
+   justify-content: flex-start; margin-left: 6%; margin-top: -20.5%"> </img>
+  <img class = "Curtainleft" src = "Curtain2.png" style = "position: absolute; width: 15%; display: flex;
+  justify-content: flex-start; margin-left: 79%; margin-top: -20.5%"> </img>
+  <img class = "pot" src = "pot.png" style = "position: absolute; width: 10%; display: flex;
+  justify-content: flex-start; margin-left: 10%; margin-top: 16%"> </img>
+
+    <!-- Button for submission -->
+  <button class = "voidButton" type="button" style = "display: block; margin-left: 60%; margin-top: 23%;
+  background-color: #9C6A54; padding: 15px; border: none; color: white; border-radius: 20px;
+  box-shadow: 2px 2px 10px grey " onclick="alert('Congrats on taking your first steps towards self care! Proud of you!')">Send it off to the void! </button>
+
+  <!-- Audio player for music -->
+    <div class = "pagewidth" style = "width: 100%; margin-top: 10%">
+      <audio class = "player" src="Monoman-Meditation.mp3" controls>
+      	<embed
+      		src="Monoman-Meditation.mp3"
+      		width="300"
+      		height="90"
+      		loop="false"
+      		autostart="false">
+      </audio>
+    </div>
+
+  </body>
+</html>
