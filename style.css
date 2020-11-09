@@ -97,12 +97,7 @@ a {
   }
 
   .pot {
-    height: 15%;
-  }
-
-  .voidButton {
-    position: relative;
-    margin-top: 400%;
+    height: 10%;
   }
 }
 
@@ -118,9 +113,5 @@ a {
 
   .pot {
     height: 30%;
-  }
-
-  .voidButton{
-    margin-top: 23%;
   }
 }
