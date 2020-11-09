@@ -89,15 +89,19 @@ a {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .Curtainright {
-    height: 40%;
+    height: 32%;
   }
 
   .Curtainleft {
-    height: 40%;
+    height: 32%;
   }
 
   .pot {
     height: 10%;
+  }
+  
+  .voidButton {
+    position: relative; 
   }
 }
 
